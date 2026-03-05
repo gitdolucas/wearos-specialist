@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: false  # no package.json/lock in this repo; Node only for global markdownlint-cli
+          # cache omitted: no package.json/lock in this repo; Node only for global markdownlint-cli
 
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
