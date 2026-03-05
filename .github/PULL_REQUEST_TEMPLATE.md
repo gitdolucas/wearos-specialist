@@ -10,7 +10,7 @@ When your PR touches guidance or examples, confirm:
 - [ ] **Correctness**: Any new examples or templates use correct persistence/lifecycle/timer behavior.
 - [ ] **Wearable UX**: Any new UI guidance keeps primary action prominent and tap targets large.
 - [ ] **Performance/battery**: Any new perf or timer guidance is lifecycle-safe and battery-friendly.
-- [ ] **Data layer**: Room vs DataStore and query scoping in examples match our [review checklist](docs/review-checklist.md).
+- [ ] **Data layer**: Room vs DataStore and query scoping in examples match our [review checklist](../docs/review-checklist.md).
 
 ## Links
 
